@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ParenCalculator from './components/ParentCalculator';
+import Calculator from './components/calculator';
 
 function App() {
   return (
     <div>
-      <ParenCalculator />
+      <Calculator />
     </div>
   );
 }
