@@ -1,39 +1,70 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: antiquewhite;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: rgb(254, 250, 245);
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 4px 0.2rem grey;
+}
+
+.display input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 3.5rem;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(110, 110, 110);
+  outline: none;
+  border: none;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 1px 1px 0 grey;
+}
+
+.display input::placeholder {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.keyboard .zero {
+  grid-column: span 2;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.key {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 15px 0;
+  background-color: rgb(232, 231, 231);
+  font-weight: 500;
+}
+
+.operand {
+  background-color: rgb(254, 156, 43);
 }
