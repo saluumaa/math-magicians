@@ -26,7 +26,7 @@ body {
   box-shadow: 2px 4px 0.2rem grey;
 }
 
-.display input {
+.display .displayvalue {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,10 +42,6 @@ body {
   font-size: 20px;
   font-weight: 600;
   box-shadow: 1px 1px 0 grey;
-}
-
-.display input::placeholder {
-  color: white;
 }
 
 .keyboard {
@@ -67,4 +63,8 @@ body {
 
 .operand {
   background-color: rgb(254, 156, 43);
+}
+
+button {
+  border: none;
 }
