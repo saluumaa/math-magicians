@@ -84,7 +84,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments
 
-I would like to thank Microverse!
+I would like to thank everyone!
 
 ## 📝 License
 
