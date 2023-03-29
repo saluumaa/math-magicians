@@ -23,7 +23,7 @@
 
 ## About the Project
 
-> This project is built with React, it is practicing application to build a calculator using React.js.
+> This project is built with React, it is practicing application to build a calculator using React.js
 
 ## Built With
 
