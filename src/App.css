@@ -44,9 +44,6 @@ body {
   box-shadow: 1px 1px 0 grey;
 }
 
-
-
-
 .keyboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

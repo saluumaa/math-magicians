@@ -48,6 +48,4 @@ const CalculatorScreen = () => {
   );
 };
 
-
-
 export default CalculatorScreen;
