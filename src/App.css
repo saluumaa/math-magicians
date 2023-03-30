@@ -9,12 +9,21 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  color: blue;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: -8rem;
 }
 
 .calculator {
@@ -23,7 +32,7 @@ body {
   max-width: 30rem;
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 4px 0.2rem grey;
+  box-shadow: 3px 2px 3px rgb(0, 54, 0);
 }
 
 .display .displayvalue {
@@ -41,7 +50,7 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  box-shadow: 1px 1px 0 grey;
+  box-shadow: 3px 2px 3px rgb(0, 54, 0);
 }
 
 .keyboard {
@@ -67,4 +76,22 @@ body {
 
 button {
   border: none;
+}
+
+.quotewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  border: 1px solid goldenrod;
+  padding: 2rem;
+  margin: -9rem 6rem 0 6rem;
+  border-radius: 50px;
+  box-shadow: 3px 2px 3px rgb(0, 54, 0);
+}
+
+.quotegenerator {
+  margin: -5px 0 5px 0;
+  color: blue;
+  font-weight: 500;
 }
