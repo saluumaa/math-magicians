@@ -32,7 +32,7 @@ h1 {
   max-width: 30rem;
   border-radius: 5px;
   border: none;
-  box-shadow: 2px 4px 0.2rem grey;
+  box-shadow: 3px 2px 3px rgb(0, 54, 0);
 }
 
 .display .displayvalue {
@@ -50,7 +50,7 @@ h1 {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  box-shadow: 1px 1px 0 grey;
+  box-shadow: 3px 2px 3px rgb(0, 54, 0);
 }
 
 .keyboard {
