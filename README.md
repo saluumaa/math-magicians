@@ -35,9 +35,10 @@
 
 - Page Setup
 
-<!-- ## Live Demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
-not available yet -->
+[Live Demo Link](https://saluumaa.github.io/math-magicians/)
+
 
 ## Getting Started
 
