@@ -9,11 +9,21 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  color: blue;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8rem;
 }
 
 .calculator {
@@ -68,6 +78,18 @@ button {
   border: none;
 }
 
-h1 {
-  
+.quotewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  border: 1px solid goldenrod;
+  padding: 2rem;
+  margin: -9rem 6rem 0 6rem;
+  border-radius: 50px;
+}
+.quotegenerator {
+  margin: -5px 0 5px 0;
+  color: blue;
+  font-weight: 500;
 }

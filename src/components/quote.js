@@ -14,7 +14,9 @@ const Quote = () => {
           },
         });
         const data = await response.json();
-        setQuote(`${data[0].quote} by ${data[0].author} `);
+        setQuote(`
+        ${data[0].quote} by  ${data[0].author} 
+        `);
         setLoading(false);
       } catch (error) {
         setError('Not able to get data');
