@@ -87,11 +87,14 @@ button {
   padding: 2rem;
   margin: -9rem 6rem 0 6rem;
   border-radius: 50px;
-  box-shadow: 3px 2px 3px rgb(0, 54, 0);
+  box-shadow:
+    4px 2px 0.2rem rgb(0, 54, 0),
+    inset 4px 2px 0.2rem rgb(0, 54, 0);
 }
 
 .quotegenerator {
   margin: -5px 0 5px 0;
   color: blue;
   font-weight: 500;
+  line-height: 2rem;
 }
