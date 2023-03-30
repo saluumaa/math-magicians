@@ -6,7 +6,7 @@ import Quote from './components/quote';
 function App() {
   return (
     <div>
-      <h1>Simplify Math</h1>
+      <h1>Math Simplified</h1>
       <Calculator />
       <Quote />
     </div>
