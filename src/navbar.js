@@ -2,7 +2,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="nav-bar">
-    <Link to="/" className="logo">
+    <Link
+      to="/"
+      className="logo"
+      style={{ color: 'red', fontStyle: 'italic', fontSize: '1.6rem' }}
+    >
       Math
       <span> Magicians </span>
     </Link>
