@@ -7,32 +7,26 @@
 body {
   background-color: antiquewhite;
   font-size: 18px;
+  overflow: hidden;
 }
-
-/* h1 {
-  color: blue;
-  font-weight: 600;
-  font-style: italic;
-  text-align: center;
-  margin-top: 2rem;
-} */
 
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  align-items: center;
-  margin-top: -8rem;
+  width: 100%;
+  padding: 1rem 2rem;
 }
 
 .calculator {
   background-color: rgb(254, 250, 245);
   width: 100%;
-  max-width: 30rem;
+  max-width: 35rem;
   border-radius: 5px;
   border: none;
   box-shadow: 3px 2px 3px rgb(0, 54, 0);
+  margin: -2rem auto 0 auto;
 }
 
 .display .displayvalue {
@@ -85,7 +79,7 @@ button {
   top: 0;
   border: 1px solid goldenrod;
   padding: 2rem;
-  margin: -9rem 6rem 0 6rem;
+  margin: 5rem 6rem 0 6rem;
   border-radius: 50px;
   box-shadow:
     4px 2px 0.2rem rgb(0, 54, 0),
@@ -98,3 +92,63 @@ button {
   font-weight: 500;
   line-height: 2rem;
 }
+
+.nav-bar {
+  width:100%;
+  position: fixed;
+  background-color: black;
+  min-height: 70px;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding-right: 5rem;
+}
+
+.nav-bar li {
+  border-right: 2px solid gray;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.nav-bar a:focus {
+  color: rgb(227, 148, 0);
+  font-size: 1.5rem;
+}
+
+.nav-bar span {
+  color: rgb(227, 148, 0);
+  font-size: 1.5rem;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+h2 {
+  color: rgb(227, 148, 0);
+}
+
+
+
+

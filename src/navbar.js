@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="nav">
+  <nav className="nav-bar">
     <Link to="/" className="logo">
-      Math Magician
+      Math
+      <span> Magicians </span>
     </Link>
     <ul>
       <li className="active">
