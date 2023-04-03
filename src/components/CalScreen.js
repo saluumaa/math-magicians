@@ -14,6 +14,7 @@ const CalculatorScreen = () => {
 
   return (
     <main className="container">
+      <h2>Let us do some math</h2>
       <div className="calculator">
         <section className="display">
           <p className="displayvalue">
