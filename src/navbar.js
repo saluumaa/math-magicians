@@ -5,7 +5,7 @@ const Navbar = () => (
     <Link
       to="/"
       className="logo"
-      style={{ color: 'red', fontStyle: 'italic', fontSize: '1.6rem' }}
+      style={{ color: 'rgb(1, 254, 1)', fontStyle: 'italic', fontSize: '1.6rem' }}
     >
       Math
       <span> Magicians </span>
