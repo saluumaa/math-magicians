@@ -88,8 +88,8 @@ button {
 
 .quotegenerator {
   margin: -5px 0 5px 0;
-  color: blue;
-  font-weight: 500;
+  color: rgb(173, 113, 2);
+  font-weight: 700;
   line-height: 2rem;
 }
 
@@ -148,4 +148,5 @@ button {
 
 h2 {
   color: rgb(227, 148, 0);
+  font-weight: 700;
 }
