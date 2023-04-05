@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div>
+  <div>
+    <main
+      class="container"
+    >
+      <h2>
+        Let us do some math
+      </h2>
+      <div
+        class="calculator"
+      >
+        <section
+          class="display"
+        >
+          <p
+            class="displayvalue"
+          />
+        </section>
+        <section
+          class="keyboard"
+        >
+          <button
+            class="key key-num key-ac"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="key key-num key-plus-minus"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="key key-num key-module"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="key key-divide operand"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="key key-num sev"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="key key-num eight"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="key key-num nine"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="key key-times operand"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="key key-num four"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="key key-num five"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="key key-num six"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="key key-minus operand"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="key key-num fone"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="key key-num two"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="key key-num three"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="key key-plus operand"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="key key-num zero"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="key key-num dot"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="key key-equal operand"
+            type="button"
+          >
+            =
+          </button>
+        </section>
+      </div>
+    </main>
+  </div>
+</div>
+`;
