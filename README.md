@@ -37,7 +37,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://saluumaa.github.io/math-magicians/)
+[Live Demo Link](https://math-magicians-zr8y.onrender.com/)
 
 
 ## Getting Started
